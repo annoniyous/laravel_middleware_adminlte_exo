@@ -11,6 +11,7 @@
             <th scope="col">Titre</th>
             <th scope="col">Auteur</th>
             <th scope="col">Show</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
@@ -22,6 +23,7 @@
               <td>
                 <a href="/articles/{{$item->id}}" class="btn btn-warning">Show</a>
               </td>
+              <td></td>
             </tr>
             @endforeach
         </tbody>
