@@ -9,5 +9,8 @@
 <body>
     <span class="text-primary text-center"> Vous avez un mesage de la part de :  <span class= "text-success"><b>{{$emailClient}}</b></span>. </span>
     <p>{{$emailMessage}}</p> 
+    <div>
+        
+    </div>
 </body>
 </html>
